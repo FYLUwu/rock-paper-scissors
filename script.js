@@ -37,11 +37,3 @@ function playRound() {
     return computerChoice === "rock" ? "Computer wins" : "Player wins";
   }
 }
-
-function playGame() {
-  for (i = 0; i < 5; i++) {
-    console.log(playRound());
-  }
-}
-
-playGame();
